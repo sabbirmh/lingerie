@@ -1,0 +1,96 @@
+/* =======******====== Menu css start ======******====== */
+
+#menu_part {
+    padding: 10px 0;
+
+    .container {
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 5px;
+            height: 1px;
+            width: 100%;
+            background: #F67280;
+        }
+
+        .main_menu {
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    margin: 15px;
+
+                    a {
+                        color: #F67280;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-family: 'Playfair Display', serif;
+                        margin-top: 7px;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .search_ber {
+            display: inline-block;
+            position: relative;
+            margin-top: 6px;
+
+            input {
+                width: 220px;
+                height: 36px;
+                border: 1px solid #F67280;
+                text-align: center;
+                margin-top: 8px;
+
+
+            }
+
+            button {
+                position: absolute;
+                background: transparent;
+                border: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 15px;
+                font-size: 12px;
+                color: #F67280;
+                margin-top: 8px;
+
+            }
+        }
+
+        .menu_right{
+            margin-top: 20px;
+            ul{
+                display: flex;
+                li{
+                    margin: 0 10px;
+                    a{
+                        color: #F67280;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-family: 'Playfair Display', serif;
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =======******====== Menu css start ======******====== */

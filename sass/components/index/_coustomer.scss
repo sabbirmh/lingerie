@@ -1,0 +1,73 @@
+/* =======******====== Coustomer css start ======******====== */
+
+#coustomer_part {
+    padding: 0 0 50px;
+
+    .container {
+        .head {
+            h3 {
+                color: #F67280;
+                font-size: 30px;
+                font-weight: 700;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+
+        .slider_row{
+            margin-top: 30px;
+            .slick-slide{
+                padding: 0 12px;
+            }
+            .coustomer_image {
+                img {
+                    border-radius: 50%;
+                }
+
+                h5 {
+                    color: #F67280;
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    position: relative;
+
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        left: 0;
+                        bottom: -16px;
+                        width: 100%;
+                        height: 1px;
+                        background-color: #F67280;
+                    }
+                }
+            }
+
+            .coustomer_info{
+                p{
+                    color: #666;
+                    font-size: 15px;
+                    font-weight: 400;
+                    font-family: 'Playfair Display', serif;
+
+                    position: relative;
+
+                    &::after{
+                        position: absolute;
+                        content: '';
+                        right: 0;
+                        top: 0;
+                        width: 1px;
+                        height: 180px;
+                        background-color: #F67280;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+/* =======******====== Coustomer css start ======******====== */

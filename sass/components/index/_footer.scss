@@ -1,0 +1,176 @@
+/* =======******====== footer css start ======******====== */
+#footer_part {
+    padding: 30px 0;
+
+    .container {
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 5px;
+            height: 1px;
+            width: 100%;
+            background: #F67280;
+        }
+
+        &::before{
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: -18px;
+            height: 1px;
+            width: 100%;
+            background: #F67280;
+        }
+
+
+        .footer_left {
+            .footer_logo {
+                width: 200px;
+            }
+
+            .footer_info {
+                p {
+                    color: #999;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Playfair Display', serif;
+                    line-height: 20px;
+                }
+            }
+
+            .cont_info {
+                margin-top: 10px;
+
+                ul {
+                    li {
+                        color: #666;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-family: 'Playfair Display', serif;
+
+                        i {
+                            padding-right: 5px;
+                            color: #F67280;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .footer_middle {
+            .head {
+                h4 {
+                    color: #F67280;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 28px;
+                }
+            }
+            .break_col{
+                padding-top: 25px;
+            }
+            .img_row{
+                margin-top: 37px;
+            }
+        }
+
+        .footer_service{
+            .head {
+                h4 {
+                    color: #F67280;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'Playfair Display', serif;
+                    margin-top: 28px;
+                }
+            }
+
+            .service{
+                margin-top: 37px;
+                ul{
+                    li{
+                        color: #999;
+                        font-size: 15px;
+                        font-weight: 500;
+                        font-family: 'Playfair Display', serif;
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+        .payment {
+            h4 {
+                color: #F67280;
+                font-size: 20px;
+                font-weight: 500;
+                font-family: 'Playfair Display', serif;
+                margin-top: 30px;
+            }
+
+            .method_img {
+                margin-top: 40px;
+                cursor: pointer;
+            }
+        }
+
+        .subscribe {
+            h4 {
+                color: #555;
+                font-size: 20px;
+                font-weight: 700;
+                font-family: 'Playfair Display', serif;
+                margin-top: 10px;
+            }
+
+            .search_ber {
+                display: inline-block;
+                position: relative;
+                margin-top: 6px;
+
+                input {
+                    width: 220px;
+                    height: 36px;
+                    border: 1px solid #333;
+                    text-align: center;
+
+
+                }
+
+                button {
+                    position: absolute;
+                    background: transparent;
+                    border: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 15px;
+                    font-size: 12px;
+                    color: #F67280;
+
+                }
+            }
+        }
+    }
+
+    .footer_last_part{
+        h6{
+            color: #F67280;
+            font-size: 13px;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+            margin-top: 30px;
+        }
+    }
+}
+
+/* =======******====== footer css start ======******====== */
